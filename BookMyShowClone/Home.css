@@ -52,7 +52,7 @@
     height: 27px;
     border: none;
     border-radius: 2px;
-    /* background: linear-gradient(red, rgb(150, 30, 30)); */
+    background: linear-gradient(red, rgb(150, 30, 30)); 
     color: black;
 }
 #button:hover{
