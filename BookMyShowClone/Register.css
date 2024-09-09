@@ -1,0 +1,78 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: content-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./images/bookmyshow.png);
+    background-repeat: no-repeat;
+    background-size: 1500px 600px;
+}
+.new{
+    width: 550px;
+    padding: 30px;
+    margin: 0 2px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 1px 15px 30px white;
+    border-radius: 10px;
+    h3{
+        font-size: 20px;
+        text-align: left;
+        padding-bottom: 8px;
+        color: red;
+    }
+
+}
+.new .logo{
+    margin-top: -70px;
+}
+.input-box{
+    width: 50%;
+    padding-bottom: 15px;
+    display: unset;
+}
+.input-box input{
+    height: 35px;
+    width: 50%;
+    padding: 0 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.new #sign{
+    cursor: pointer;
+    width: 250px;
+    height: 30px;
+    display: flex;
+    background: linear-gradient(red, rgb(150, 30, 30));
+    font-size: 17px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    text-align: center;
+}
+#sign:hover{
+    background: linear-gradient(rgb(150, 30, 30), red);
+}
+
+.offer1 img{
+    margin-right: -150px;
+    margin-top: 2px;
+    border-radius: 5px;
+    height: 220px;
+    width: 150px;
+}
+.offer2 img{
+    margin-right: -150px;
+    margin-top: 220px;
+    border-radius: 5px;
+    height: 210px;
+    width: 150px;
+}
+
