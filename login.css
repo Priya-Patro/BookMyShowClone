@@ -1,0 +1,83 @@
+* {
+    margin: auto;
+    padding: auto;
+    font-family: sans-serif;
+    box-sizing: content-box;
+}
+
+body {
+    display: flex;
+    ;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(logomain.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    width: 500px;
+    padding: 15px;
+    margin: 0 2px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 1px 0px 20px 10px white;
+    border-radius: 10px;
+    text-align: center;
+    h2 {
+        padding-top: 10px;
+        text-align: center;
+        padding-bottom: 8px;
+        padding-right: 20px;
+        color: red;
+    }
+}
+
+.input-box {
+    width: 40%;
+    padding-bottom: 15px;
+    display: inline;
+}
+
+.input-box input {
+    height: 30px;
+    width: 40%;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.main #button {
+    height: 30px;
+    width: 150px;
+    font-size: 15px;
+    text-align: center;
+    display: grid;
+    border-radius: 20px;
+    background: linear-gradient(red, rgb(150, 30, 30));
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+#button:hover {
+    background: linear-gradient(rgb(150, 30, 30), red);
+}
+
+.register {
+    text-align: center;
+    font-size: 15px;
+    a {
+        color: red;
+    }
+}
+
+#img {
+    border-radius: 10px;
+    padding-top: 5px;
+}
+
+.pup a {
+    color: red;
+    font-size: 12px;
+}

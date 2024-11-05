@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="bookmain2.png">
+    <link rel="stylesheet" href="login.css">
+    <title>Login | Home</title>
+</head>
+<body>
+    <form action="index.html">
+
+    <div class="main">
+        <img src="booklog.png" alt="" height="260px" width="230px" align="left" id="img">
+        <h2>Login</h2><br>
+        <div class="login">
+            <div class="input-box">
+                <input type="email" placeholder=" Enter your email" id="email" required>
+            </div><br><br>
+            <div class="input-box">
+                <input type="password" placeholder=" Password" maxlength="6" required>
+            </div>
+        </div><br>
+        <a href="index.html" style="text-decoration: none;"><input type="submit" value="Login" id="button" align="center"></a>
+        <div class="pup"><a href="#" onclick="popup()">Forget Password?</a>
+        </div><br>
+        <p class="register" align="center" style="padding-bottom: 10px;">Don't have an account? <a href="Register.html">Register Now</a></p>
+    </div>
+
+</form>
+</body>
+<script>
+    function popup(){
+        prompt("Enter your Email Id or Phone Number")
+    }
+</script>
+</html>
