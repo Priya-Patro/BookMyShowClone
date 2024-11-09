@@ -1,0 +1,186 @@
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing: content-box;
+    font-family: sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(bookmyshow.png);
+    background-repeat: no-repeat;
+    background-size: 1500px 900px;
+}
+
+.new {
+    width: 550px;
+    padding: 30px;
+    margin: 0 2px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 1px 15px 30px white;
+    border-radius: 10px;
+    h3 {
+        font-size: 20px;
+        text-align: left;
+        padding-bottom: 8px;
+        color: red;
+    }
+}
+
+.new .logo {
+    margin-top: -100px;
+}
+
+.input-box {
+    width: 50%;
+    padding-bottom: 15px;
+    display: unset;
+}
+
+.input-box input {
+    height: 35px;
+    width: 50%;
+    padding: 0 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.new #sign {
+    cursor: pointer;
+    width: 250px;
+    height: 30px;
+    display: flex;
+    background: linear-gradient(red, rgb(150, 30, 30));
+    font-size: 17px;
+    color: white;
+    border-radius: 5px;
+    border: 1px solid white;
+    text-align: center;
+}
+
+#sign:hover {
+    background: linear-gradient(rgb(150, 30, 30), red);
+}
+
+.offer1 img {
+    margin-right: -150px;
+    margin-top: 2px;
+    border-radius: 5px;
+    height: 220px;
+    width: 150px;
+}
+
+.offer2 img {
+    margin-right: -150px;
+    margin-top: 220px;
+    border-radius: 5px;
+    height: 210px;
+    width: 150px;
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    body {
+        background-size: 1500px 1367px;
+    }
+    .new {
+        width: 470px;
+        height: 460px;
+        overflow: hidden;
+        margin-left: -120px;
+        /* margin-top: 30px;
+         */
+        padding: 35px;
+        /* padding: -100px; */
+    }
+    .new .logo {
+        margin-top: -110px;
+    }
+    #imag {
+        width: 160px;
+        height: 160px;
+    }
+    .new h3 {
+        font-size: 30px;
+    }
+    .new span {
+        font-size: 24px;
+    }
+    .details .input-box input {
+        padding-bottom: 6px;
+        width: 60%;
+    }
+    .new label {
+        font-size: 22px;
+    }
+    .new #sign {
+        font-size: 25px;
+        height: 40px;
+        width: 250px;
+    }
+    .new p {
+        font-size: 20px;
+    }
+    .offer1 img {
+        height: 250px;
+    }
+    .offer2 img {
+        height: 260px;
+        margin-top: 270px;
+    }
+}
+
+@media ( max-width:480px) {
+    body {
+        background-size: 600px 1042px;
+        /* margin: -20px; */
+        /* padding-left: -20px; */
+    }
+    .new {
+        height: 460px;
+        width: 250px;
+        /* padding-left: -20px; */
+        margin-left: -20px;
+        margin-right: -20px;
+        padding-top: 40px;
+    }
+    .new h3 {
+        font-size: 23px;
+    }
+    .new span {
+        font-size: 17px;
+    }
+    .offer1 img {
+        /* width: 80px;
+        height: 200px;
+        margin-right: -98px; */
+        display: none;
+    }
+    .offer2 img {
+        display: none;
+    }
+    #imag {
+        height: 100px;
+        width: 80px;
+    }
+    .new .logo {
+        height: 47px;
+        width: 100px;
+        padding-top: -3px;
+    }
+    .new label {
+        font-size: 18px;
+    }
+    .new #sign {
+        height: 30px;
+        width: 150px;
+        font-size: 18px;
+    }
+    .new p {
+        font-size: 18px;
+    }
+}

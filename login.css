@@ -1,0 +1,148 @@
+* {
+    margin: auto;
+    padding: auto;
+    font-family: sans-serif;
+    box-sizing: content-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(logomain.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main {
+    width: 500px;
+    padding: 15px;
+    margin: 0 2px;
+    overflow: hidden;
+    background: white;
+    box-shadow: 1px 0px 20px 10px white;
+    border-radius: 10px;
+    text-align: center;
+    h2 {
+        padding-top: 10px;
+        text-align: center;
+        padding-bottom: 8px;
+        padding-left: 5px;
+        color: red;
+    }
+    h3 {
+        display: none;
+    }
+}
+
+.input-box {
+    width: 40%;
+    padding-bottom: 15px;
+    display: inline;
+}
+
+.input-box input {
+    height: 30px;
+    width: 40%;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.main #button {
+    height: 30px;
+    width: 150px;
+    font-size: 15px;
+    text-align: center;
+    display: grid;
+    border-radius: 20px;
+    background: linear-gradient(red, rgb(150, 30, 30));
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+#button:hover {
+    background: linear-gradient(rgb(150, 30, 30), red);
+}
+
+.register {
+    text-align: center;
+    font-size: 15px;
+    a {
+        color: red;
+    }
+}
+
+#img {
+    border-radius: 10px;
+    padding-top: 5px;
+}
+
+.pup a {
+    color: red;
+    font-size: 12px;
+}
+
+@media (max-width:480px) {
+    body {
+        background-size: 1050px 1025px;
+    }
+    .main {
+        height: 485px;
+        width: 250px;
+        h2 {
+            display: none;
+        }
+        h3 {
+            display: inline;
+            color: red;
+            font-size: 22px;
+        }
+    }
+    .main #img {
+        height: 200px;
+        width: 240px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 17px;
+        padding-left: 5px;
+        /* display: inline-block; */
+    }
+    .login .input-box {
+        margin-top: 50px;
+    }
+    .login .input-box input {
+        width: 85%;
+    }
+    .register {
+        font-size: 15px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    .main {
+        width: 650px;
+        height: 300px;
+        h2 {
+            font-size: 34px;
+        }
+    }
+    #img {
+        height: 285px;
+        width: 270px;
+        padding-top: 6px;
+    }
+    .input-box input {
+        width: 50%;
+        height: 35px;
+    }
+    .main #button {
+        height: 40px;
+        width: 240px;
+        font-size: 19px;
+    }
+    .main p {
+        font-size: 17px;
+    }
+}
