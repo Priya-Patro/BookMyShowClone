@@ -12,7 +12,7 @@ body {
     height: 100vh;
     background-image: url(bookmyshow.png);
     background-repeat: no-repeat;
-    background-size: 1500px 900px;
+    background-size: 100% 100%;
 }
 
 .new {
@@ -84,9 +84,9 @@ body {
 }
 
 @media (min-width:768px) and (max-width:1024px) {
-    body {
+    /* body {
         background-size: 1500px 1367px;
-    }
+    } */
     .new {
         width: 470px;
         height: 460px;
@@ -135,12 +135,11 @@ body {
 }
 
 @media ( max-width:480px) {
-    body {
+    /* body {
         background-size: 600px 1042px;
         /* margin: -20px; */
-        /* padding-left: -20px; */
-    }
-    .new {
+    /* padding-left: -20px; */
+    */ .new {
         height: 460px;
         width: 250px;
         /* padding-left: -20px; */
